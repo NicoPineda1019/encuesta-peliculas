@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  border: 2px solid #a7a7a7;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #eeeeee;
+
+}
+.label {
+  font-weight: 600;
+}
+.input {
+  height: 25px;
+  border-width: 2px;
+  border-color: whitesmoke;
+  border-radius: 2px;
+}
+.button {
+  margin-top: 10px;
+  background-color: aqua;
+}
+.error {
+  color: red;
+  font-weight: 500;
+}
+.card {
+  background-color: rgb(9, 248, 152);
+  border-radius: 5px;
+}
